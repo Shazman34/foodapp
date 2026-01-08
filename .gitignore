@@ -1,0 +1,65 @@
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+out/
+coverage/
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+
+# Optional npm cache
+.npmrc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Test artifacts
+.jest/
+.mocha/
+nyc_output/
+
+# Temporary files
+tmp/
+temp/
+
+# Nodemon
+.nodemon.json
+
+# PM2
+pm2.log
+pm2.pid
+
+# Docker
+*.tar
